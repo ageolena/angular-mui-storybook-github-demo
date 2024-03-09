@@ -1,27 +1,44 @@
-# AngularMuiStorybookDemo
+# Project Name
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+## Description
 
-## Development server
+This project uses Storybook to create a component library. It's an Angular project that uses Material UI components.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tools and Packages Used
 
-## Code scaffolding
+- Angular
+- Material UI
+- Storybook
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+To install the project, clone the repository and run `npm install`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## How to Contribute
 
-## Running unit tests
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes in your branch.
+4. Submit a pull request.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Adding Stories
 
-## Running end-to-end tests
+To add a story to the Storybook:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Create a new file in the `src/stories` directory.
+2. Use the `export default` syntax to define the metadata for your story.
+3. Define your story using the `export const` syntax.
 
-## Further help
+Refer to the [Storybook documentation](https://storybook.js.org/docs/angular/writing-stories/introduction) for more detailed instructions.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Deployment
+
+To deploy the Storybook:
+
+1. Build the Storybook using `npm run build-storybook`.
+2. Deploy the `storybook-static` directory to your hosting platform of choice.
+3. Run `npm run deploy-storybook` to deploy on girhub-pages
+
+## Deployed Storybook
+
+You can view the deployed Storybook at [angular-mui-storybook-github-demo](http://ageolena.github.io/angular-mui-storybook-github-demo).
